@@ -28,7 +28,7 @@ pipeline {
                     input message:'Approve PRODUCTION Deployment?'
                 }
                echo 'Now Deploying to stagining 9090 tomcat...'
-                build job: 'deploy-to-Production'
+                build job: 'deploy-to-production'
             }
             post {
                 success {
