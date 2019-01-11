@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-  
-        label 'dev' 
-
-    }
+    agent any
     tools {
         maven 'localMaven'
     }
